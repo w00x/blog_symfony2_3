@@ -1,0 +1,11 @@
+blas_blog_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: BlasBlogBundle:Default:index }
+
+blas_blog_index:
+    pattern:  /
+    defaults:  { _controller: BlasBlogBundle:Main:index }
+
+blas_blog_comments:
+    pattern:  /post/{id}/comments
+    defaults:  { _controller: BlasBlogBundle:Main:comments }

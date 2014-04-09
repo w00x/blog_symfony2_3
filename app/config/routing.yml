@@ -1,0 +1,3 @@
+blas_blog:
+    resource: "@BlasBlogBundle/Resources/config/routing.yml"
+    prefix:   /
